@@ -6,6 +6,7 @@
 import sys
 from Registry import Registry
 
+# This function parses the SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run key
 def run_key(ntuser):
     try:
         user_run_key = ntuser_reg.open("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run")
@@ -15,6 +16,7 @@ def run_key(ntuser):
     except Registry.RegistryKeyNotFoundException:
         print "Couldn't find Run key. Continuing...\n"
 
+# This function parses the SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce key
 def runonce_key(ntuser):
     try:
         user_runonce_key = ntuser_reg.open("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce")
@@ -23,7 +25,8 @@ def runonce_key(ntuser):
             print "Program: {}\t Path: {}".format(value.name(), value.value())
     except Registry.RegistryKeyNotFoundException:
         print "Couldn't find RunOnce key. Continuing...\n"
-        
+
+# This function parses the SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce\Setup key        
 def runoncesetup_key(ntuser):
     try:
         user_runoncesetup_key = ntuser_reg.open("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce\Setup")
@@ -32,7 +35,8 @@ def runoncesetup_key(ntuser):
             print "Program: {}\t Path: {}".format(value.name(), value.value())
     except Registry.RegistryKeyNotFoundException:
         print "Couldn't find RunOnceSetup key. Continuing...\n"
-        
+
+# This function parses the Control Panel\Desktop key, and looks specifically for the SCRNSAVE.EXE value        
 def user_desktop_key(ntuser):
     try:
         user_desktop_key = ntuser_reg.open("Control Panel\Desktop")
@@ -46,6 +50,7 @@ def user_desktop_key(ntuser):
     except Registry.RegistryKeyNotFoundException:
         print "Couldn't find Desktop key. Continuing...\n"
         
+# This script parses the SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\run key
 def run_nt_key(ntuser):
     try:
         user_runnt_key = ntuser_reg.open("SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\run")
@@ -54,7 +59,8 @@ def run_nt_key(ntuser):
             print "Program: {}\t Path: {}".format(value.name(), value.value())
     except Registry.RegistryKeyNotFoundException:
         print "Couldn't find Run (Windows NT) key. Continuing...\n"
-        
+
+# This script parses the SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\load key        
 def load_nt_key(ntuser):
     try:
         user_loadnt_key = ntuser_reg.open("SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\load")
@@ -64,10 +70,11 @@ def load_nt_key(ntuser):
     except Registry.RegistryKeyNotFoundException:
         print "Couldn't find Load (Windows NT) key. Continuing...\n"
 
-ntuser_reg_file = sys.argv[1]
+ntuser_reg_file = sys.argv[1]   # Parse the NTUSER.DAT file specified at the CLI prompt
 
-ntuser_reg = Registry.Registry(ntuser_reg_file)
+ntuser_reg = Registry.Registry(ntuser_reg_file) # Open the registry file
 
+# Run the NTUSER.DAT file through each of the functions
 run_key(ntuser_reg)
 runonce_key(ntuser_reg)
 runoncesetup_key(ntuser_reg)
