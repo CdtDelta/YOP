@@ -7,3 +7,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 
 YOP - Week 1	Parse NTUSER.DAT keys
 YOP - Week 2	Download VXShare Hash Files
+YOP - Week 3	Generate random decimal, binary, and hex numbers
