@@ -9,3 +9,4 @@ YOP - Week 1	Parse NTUSER.DAT keys
 YOP - Week 2	Download VXShare Hash Files
 YOP - Week 3	Generate random decimal, binary, and hex numbers
 YOP - Week 4	Part I: Parsing index.dat file header
+YOP - Week 5	Part II: Parsing index.dat file header
