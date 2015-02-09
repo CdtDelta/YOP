@@ -5,9 +5,9 @@ To help stregthen my understanding of Python, I've decided to write one piece of
 
 My plan is to have the code up by Sunday of each week (in my world the week starts on Monday).
 
-YOP - Week 1	Parse NTUSER.DAT keys
-YOP - Week 2	Download VXShare Hash Files
-YOP - Week 3	Generate random decimal, binary, and hex numbers
-YOP - Week 4	Part I: Parsing index.dat file header
-YOP - Week 5	Part II: Parsing index.dat file header
-YOP - Week 6	Configuration file code for YOP - Week 2 script
+*YOP - Week 1	Parse NTUSER.DAT keys
+*YOP - Week 2	Download VXShare Hash Files
+*YOP - Week 3	Generate random decimal, binary, and hex numbers
+*YOP - Week 4	Part I: Parsing index.dat file header
+*YOP - Week 5	Part II: Parsing index.dat file header
+*YOP - Week 6	Configuration file code for YOP - Week 2 script
