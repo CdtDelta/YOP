@@ -12,3 +12,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 5	Part II: Parsing index.dat file header
 * YOP - Week 6	Configuration file code for YOP - Week 2 script
 * YOP - Week 7	Server checking script
+* YOP - Week 8	FAT32 VBA Parsing Script
