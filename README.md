@@ -14,3 +14,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 7	Server checking script
 * YOP - Week 8	FAT32 VBA Parsing Script
 * YOP - Week 9  FAT12/16 VBA Parsing Script
+* YOP - Week 10 NTFS VBA Parsing Script
