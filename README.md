@@ -16,3 +16,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 9  FAT12/16 VBA Parsing Script
 * YOP - Week 10 NTFS VBA Parsing Script
 * YOP - Week 11 OS X FV Brute Force Script
+* YOP - Week 12 Office/XML Malware Base64 decoder script
