@@ -7,6 +7,7 @@
 # Version 1.0
 #
 # TODO: Need to figure out why it's hanging on some ports
+# 4/21/2015: Fixed hanging issue (thx to Willi Ballenthin)
 
 import argparse
 import requests
@@ -31,7 +32,7 @@ with open(args.server_list, "r") as servers_to_check:
             try:
                 url = 'http://' + ms15_034_server.rstrip() + ':' + str(ports)
                 print "Checking: {}...".format(url)
-                ms15_034_check = http_check.get(url, headers = headers)
+                ms15_034_check = http_check.get(url, headers = headers, timeout = 0.05)
                 ms15_output[str(ports)] = ms15_034_check.status_code
                 http_check.close()
             except:
