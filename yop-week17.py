@@ -36,5 +36,5 @@ with open(index_dat, "rb") as ie_file:
     while ie_hash_record_start < (ie_hash_record_start + (int(ie_hash_header[1]) - 12)):
         ie_hash_record_table = hash_table_records(ie_hash_record)
         ie_hash_record_start = ie_hash_record_end
-        ie_hash_record_end += 16
+        ie_hash_record_end += 8
         ie_hash_record = ie_hash_parser[ie_hash_record_start:ie_hash_record_end]
