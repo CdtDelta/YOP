@@ -23,3 +23,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 16 MS15-034 Checking Script
 * YOP - Week 17 index.dat HASH table parser
 * YOP - Week 18 Final Grade Program
+* YOP - Week 19 Code updates for Week 13 and 17 Scripts
