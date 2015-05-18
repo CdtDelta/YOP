@@ -1,6 +1,10 @@
 # This is my attempt at a Apple FileVault Recovery Key brute force tool
 # This is supposed to be used with the libfvde library from here:
 # https://github.com/libyal/libfvde
+#
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 
 
 import os

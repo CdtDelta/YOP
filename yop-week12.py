@@ -1,6 +1,10 @@
 # This program takes a copy of the base64 encoded string floating around in
 # malicious office files right now, reassembles them into one line
 # getting rid of the carriage returns, and then decodes that part of the file
+#
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 
 import argparse
 

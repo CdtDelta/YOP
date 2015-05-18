@@ -3,6 +3,10 @@
 # https://isc.sans.edu/forums/diary/MS15034+HTTPsys+IIS+DoS+And+Possible+Remote+Code+Execution+PATCH+NOW/19583/
 #
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
+#
 # By Tom Yarrish
 # Version 1.0
 #

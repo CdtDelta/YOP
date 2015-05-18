@@ -1,6 +1,10 @@
 # This weeks example are actually updates to previous YOP code.
 # These are just snippets of code, not designed to run on its own
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
+#
 # The follow code is designed to be included in the YOP - Week 17 script
 #
 # First add the bitstring module to the beginning of the script

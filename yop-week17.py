@@ -2,6 +2,10 @@
 # It's still a work in progress I have some pieces to finish coding out
 #
 #
+#
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # By Tom Yarrish
 # Version 0.5
 #

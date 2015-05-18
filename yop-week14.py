@@ -1,5 +1,9 @@
 # This script does a quick parse of the utmz cookies from a cookies.sqlite file
 #
+#
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # By Tom Yarrish
 # Version 1.0
 #

@@ -2,6 +2,10 @@
 # a class I teach.
 #
 #
+#
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # By Tom Yarrish
 # Version 0.1
 

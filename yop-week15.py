@@ -1,6 +1,10 @@
 # This program with either convert text to an MD5 hash (to check pash the hash stuff)
 # or it will decode a URL with %xx characters to their equivalent special characters
 #
+#
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # Version 1.0
 # Tom Yarrish
 

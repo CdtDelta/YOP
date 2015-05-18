@@ -1,6 +1,10 @@
 # Runs an MD5 comparison of files in two different directories.
 # Writes the results to an output file
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
+#
 # Tom Yarrish
 # Version 1.0
 
