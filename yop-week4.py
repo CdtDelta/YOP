@@ -1,5 +1,8 @@
 # This code parses the first 72 bytes of an index.dat file
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # Tom Yarrish
 # Version 1.0
 

@@ -1,4 +1,8 @@
 # This script is for pulling new hash files from vxshare.com
+#
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # Version 1.0
 # Tom Yarrish
 #

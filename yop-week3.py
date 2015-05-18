@@ -1,6 +1,9 @@
 # This is a script to generate a random number
 # and then convert it to binary and hex values
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # Version 1.0
 # Tom Yarrish
 

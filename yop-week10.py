@@ -1,5 +1,8 @@
 # This script parses a NTFS VBR file
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # Tom Yarrish
 # Version 0.1
 #

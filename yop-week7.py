@@ -1,5 +1,8 @@
 # Agent checker
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # By Tom Yarrish
 # Version 1.2
 #

@@ -1,6 +1,9 @@
 # This script parses some of the ntuser.dat autorun keys.
 # This is not a full program just a work in progress for a larger program.
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # Version 1.0 - Tom Yarrish
 
 import sys

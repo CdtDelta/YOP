@@ -1,5 +1,8 @@
 # This script is designed to parse out the beginning of a VBR script
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 #
 # by Tom Yarrish
 # Version 1.0

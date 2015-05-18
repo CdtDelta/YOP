@@ -1,3 +1,7 @@
+#
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 from configobj import ConfigObj
 import os
 import sys

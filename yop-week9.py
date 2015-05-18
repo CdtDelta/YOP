@@ -1,5 +1,8 @@
 # This file is to parse a FAT 12/16 VBR image
 #
+# Licensed under the GPL
+# http://www.gnu.org/copyleft/gpl.html
+#
 # Tom Yarrish
 # Version 0.1
 #
