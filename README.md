@@ -28,3 +28,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 21 More Prefetch File parsing
 * YOP - Week 22 Starting to parse out the Windows ESE DB Header
 * YOP - Week 23 Starting to parse out the Windows LNK File Header
+* YOP - Week 24 Continuing with the Windows LNK File Header
