@@ -33,6 +33,10 @@ def lnk_hot_key_parse(hotkey):
     hotkey_two = lnk_hot_key_low(hotkey[0])
     return hotkey_one, hotkey_two
 
+# This line replaces line 42
+
+lnk_header_hot_key = struct.unpack("<2B", header_data[64:66])
+
 # This line goes after line 42
     
 hot_key = lnk_hot_key_parse(lnk_header_hot_key)
