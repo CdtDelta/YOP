@@ -32,3 +32,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 25 Windows LNK File Header Part III
 * YOP - Week 26 Windows LNK File Header Part IV
 * YOP - Week 27 Windows LNK File Header Part V
+* YOP - Week 28 Google Safe Browsing checker
