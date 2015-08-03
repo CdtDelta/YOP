@@ -35,3 +35,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 28 Google Safe Browsing checker
 * YOP - Week 29 SQL Database for Week 11 Script
 * YOP - Week 30 YouTube Download Script
+* YOP - Week 31 More work on the Windows ESE DB Header
