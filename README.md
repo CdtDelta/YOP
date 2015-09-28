@@ -43,3 +43,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 36 First go practice at Regular Expressions
 * YOP - Week 37 APT excuse generator
 * YOP - Week 38 Evidence addition script
+* YOP - Week 39 Simple Case Creation Script
