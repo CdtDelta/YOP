@@ -24,7 +24,7 @@ def add_evidence(database):
     return
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', dest='db_name', required=True, help='Name of database file to track keys')
+parser.add_argument('-d', dest='db_name', required=True, help='Name of database file to track evidence')
 args = parser.parse_args()
 
 keep_running = True
