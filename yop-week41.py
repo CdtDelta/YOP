@@ -1,4 +1,5 @@
 # This is a simple math script to help practice multiplication
+# I need to add a scoring system.
 #
 # Tom Yarrish
 # Version 1.0
