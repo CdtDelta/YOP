@@ -45,3 +45,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 38 Evidence addition script
 * YOP - Week 39 Simple Case Creation Script
 * YOP - Week 40 Case Notes Creation Script
+* YOP - Week 41 Simple Multiplcation tester
