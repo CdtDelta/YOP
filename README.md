@@ -46,3 +46,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 39 Simple Case Creation Script
 * YOP - Week 40 Case Notes Creation Script
 * YOP - Week 41 Simple Multiplcation tester
+* YOP - Week 42 Chain of Custody entry database
