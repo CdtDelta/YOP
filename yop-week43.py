@@ -7,6 +7,9 @@
 #
 # Licensed under the GPL
 # http://www.gnu.org/copyleft/gpl.html
+#
+# Changelog
+# 10/27/2015 - Added try/except to URL fetch to continue if a webserver wasn't present
 
 from ipwhois import IPWhois
 import dns.resolver, dns.reversename
@@ -29,12 +32,16 @@ def whois(ip_addr):
 
 def pull_url(ip_addr):
     filename = ip_addr + ".txt"
-    with open(filename, 'wb') as html_file:
-        http_grab = pycurl.Curl()
-        http_grab.setopt(http_grab.URL, ip_addr)
-        http_grab.setopt(http_grab.WRITEDATA, html_file)
-        http_grab.perform()
-        http_grab.close()
+    try:
+        with open(filename, 'wb') as html_file:
+            http_grab = pycurl.Curl()
+            http_grab.setopt(http_grab.URL, ip_addr)
+            http_grab.setopt(http_grab.WRITEDATA, html_file)
+            http_grab.perform()
+            http_grab.close()
+    except Exception, url_error:
+        print "Unable to pull page..."
+        print repr(url_error)
     return
 
 parser = argparse.ArgumentParser()
