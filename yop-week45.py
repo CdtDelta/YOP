@@ -15,7 +15,7 @@ import csv
 def cleanup_file(filename):
     with open(filename, "r") as orig_file:
         new_file = orig_file.readlines()
-        bkup_file = new_file[34:]
+        bkup_file = new_file[30:]
     with open(filename, "w") as new_filename:
         new_filename.writelines(bkup_file)
     return
