@@ -7,6 +7,8 @@
 # Licensed under the GPL
 # http://www.gnu.org/copyleft/gpl.html
 #
+# We need to add the re module for one of the functions
+import re
 
 # These functions go in place after line 34 from week 45.
 
