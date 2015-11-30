@@ -52,3 +52,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 45 Windows DNS Log to CSV script
 * YOP - Week 46 Windows DNS Log to CSV script - Part II
 * YOP - Week 47 Starting to look at Norton NPE XML Log Files
+* YOP - Week 48 Norton NPE XML Log Files - Part II
