@@ -125,6 +125,8 @@ remove_newlines(args.file_name, args.backup_file)
 
 if os.path.isfile(args.output_file):
     print "{} exists...".format(args.output_file)
+    db_connect = sqlite3.connect(args.output_file)
+    dns_db = db_connect.cursor()    
 else:
     db_connect = sqlite3.connect(args.output_file)
     dns_db = db_connect.cursor()
