@@ -56,3 +56,4 @@ My plan is to have the code up by Sunday of each week (in my world the week star
 * YOP - Week 49 Norton NPE XML Log Files - Part III
 * YOP - Week 50 Windows DNS Log to SQLite script
 * YOP - Week 51 Script to search Windows DNS Log
+* YOP - Week 52 Script to search string output from memory dump
