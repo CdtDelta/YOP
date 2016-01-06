@@ -26,5 +26,5 @@ with open("random_list.txt", "w") as ran_file:
     while numbers_start < numbers_end:
         results = random_number_generator()
         ran_file.write("{}\t\t\t{}\t\t\t{}\n".format(*results))
-        numbers += 1
+        numbers_start += 1
     
